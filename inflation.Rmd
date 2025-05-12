@@ -49,9 +49,13 @@ inflation %>%
             .groups = "drop") %>% 
   pivot_longer(c(expectation, perception)) %>% 
   ungroup() %>% 
-  ggplot() +
+  ggplot() +   theme_minimal() +
+  ylab("subjective inflation in %-points") +
+  labs(color = "") +
+  theme(legend.position = c(.1, .9)) +
   geom_line(aes(date, value, color = name)) +
   NULL
+  
 ```
 
 ```{r}
