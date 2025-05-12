@@ -78,6 +78,10 @@ usethis::use_git_config(
   user.email = "mschmidt@mpib-berlin.mpg.de", # <-- and your email
   init.defaultBranch = "main") # <-- not necessary but kinder than 'master'
 usethis::use_git()
+usethis::create_github_token(description = "Token for Repro Workshop 2025")
+gitcreds::gitcreds_set()
+usethis::gh_token_help()
+usethis::use_github()
 ```
 
 
