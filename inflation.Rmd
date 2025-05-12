@@ -65,3 +65,15 @@ We have `32` cars
 ```{python}
 print("Hello World! Python here, do you miss R already?")
 ```
+
+```{r}
+# use a function without loading the package:
+# package::function
+usethis::use_git_config(
+  user.name = "Marie Schmidt", # <-- change to your name
+  user.email = "mschmidt@mpib-berlin.mpg.de", # <-- and your email
+  init.defaultBranch = "main") # <-- not necessary but kinder than 'master'
+usethis::use_git()
+```
+
+
