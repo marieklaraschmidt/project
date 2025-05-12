@@ -89,4 +89,13 @@ usethis::gh_token_help()
 usethis::use_github()
 ```
 
+```{r}
+repro::automate()
+```
+```{r}
+repro::use_gha_docker()
+```
+```{r}
+usethis::browse_github_actions()
+```
 
