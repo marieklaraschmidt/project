@@ -83,5 +83,10 @@ gitcreds::gitcreds_set()
 usethis::gh_token_help()
 usethis::use_github()
 ```
+```{r}
+gitcreds::gitcreds_set()
+usethis::gh_token_help()
+usethis::use_github()
+```
 
 
